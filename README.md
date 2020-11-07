@@ -1,5 +1,7 @@
 # Unwindia
 
+![Compile Mermaid in Markdown](https://github.com/GSH-LAN/Unwindia/workflows/Compile%20Mermaid%20in%20Markdown/badge.svg?branch=master)
+
 ### what is it?
 > Unwindia is the on demand game server creation service for [pterodactyl](https://pterodactyl.io/) (as game server management panel) combined with the lan party management system [DOTLAN Intranet](http://intranet.dotlan.net/news/) which [we / Gamesession Hannover](https://xxl.gsh-lan.com/news/) are using at our lan parties.
 
