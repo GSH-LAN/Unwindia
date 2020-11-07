@@ -20,6 +20,7 @@
 > [ ] to be continued / extended
 
 ### how is it structured?
+
 ```mermaid
 flowchart TD;
     A[(ConfigurationService)];
