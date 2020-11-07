@@ -3,7 +3,7 @@ name: 'Compile Mermaid in Markdown'
 on:
   push:
     paths:
-      - '**/structure.md'
+      - '**/*.md'
 
 jobs:
   build:
