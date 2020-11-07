@@ -20,4 +20,4 @@
 > [ ] to be continued / extended
 
 ### how is it structured?
-![~mermaid diagram 1~](/.resources/structure-mmd-1.png)
+![~mermaid diagram 1~](/.resources/structure-md-1.png)
