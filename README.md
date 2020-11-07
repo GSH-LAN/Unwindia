@@ -1,1 +1,52 @@
 # Unwindia
+
+### what is it?
+> Unwindia is the on demand game server creation service for [pterodactyl](https://pterodactyl.io/) (as game server management panel) combined with the lan party management system [DOTLAN Intranet](http://intranet.dotlan.net/news/) which [we / Gamesession Hannover](https://xxl.gsh-lan.com/news/) are using at our lan parties.
+
+### what it does?
+> every time a tourney match has been scheduled and both teams are ready to play, [Unwindia](https://github.com/GSH-LAN/Unwindia) will created a new game server or update a suspended game server at [pterodactyl](https://pterodactyl.io/) and update the tourney match information with the connection details for the game server
+> after the match has finished [Unwindia](https://github.com/GSH-LAN/Unwindia) will suspend the game server and sent it back into the pool if a new game server is needed
+
+### current supported games
+> [x] CSGO
+>
+> [ ] to be continued / extended
+
+### current supported lan party management systems
+> [x] [DOTLAN Intranet](http://intranet.dotlan.net/news/)
+>
+> [ ] to be continued / extended
+
+### how is it structured?
+```mermaid
+flowchart TD;
+    A[(ConfigurationService)];
+    B(ManagerService);
+    C(PterodactylService);
+    CC(PterodactylInstance);
+    D(DotlanService);
+    DD(DotlanInstance);
+    E(DiscordService);
+    EE(DiscordServer);
+    F(UtilitiesService);
+    FF(Logger);
+    FFF(Statistics);
+    G(AdminWebService);
+    B --> A;
+    C --> A;
+    D --> A;
+    E --> A;
+    F --> A;
+    G <--> A;
+    B <--> C;
+    B <--> D;
+    B <--> E;
+    B <--> F;
+    C <--> CC;
+    D <--> DD;
+    E <--> EE;
+    F <--> FF;
+    F <--> FFF;
+    G <--> B;
+    G <--> F;
+```
