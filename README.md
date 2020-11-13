@@ -27,7 +27,7 @@
 
 ## Architecture
 
-![~mermaid diagram 1~](/.resources/structure-mermaid-md-1.png)
+![~mermaid diagram 1~](/.resources/images/structure-mermaid-md-1.png)
 
 ## Service repositories
 | Name | Repo | Build status |
