@@ -27,7 +27,7 @@
 
 ## Architecture
 
-![Unwindia-Architecture](./.resources/images/unwindia_architecture.svg)
+![Unwindia-Architecture](./.resources/images/unwindia_architecture.png)
 
 ## Unwindia services
 | Name | Repo | Build status |
