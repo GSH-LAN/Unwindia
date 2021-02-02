@@ -27,9 +27,11 @@
 
 ## Architecture
 
-![~mermaid diagram 1~](/.resources/images/structure-mermaid-md-1.png)
+![Unwindia-Architecture](./.resources/images/unwindia_architecture.svg)
 
-## Service repositories
+## Unwindia services
 | Name | Repo | Build status |
 |:---:|:---:|:---:|
 | Configuration | [Unwindia_config](https://github.com/GSH-LAN/Unwindia_config) | ... |
+| Pterodactyl | [Unwindia_pterodactyl](https://github.com/GSH-LAN/Unwindia_pterodactyl) | ... |
+| DotLAN | [Unwindia_dotlan](https://github.com/GSH-LAN/Unwindia_dotlan) | ... |
